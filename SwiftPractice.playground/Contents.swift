@@ -22,4 +22,8 @@ print(number)
 let vegetable = "callot"
 print(vegetable)
 
+//配列
+var arr = [1,2,3]
+print(arr[1]) 
+
 
