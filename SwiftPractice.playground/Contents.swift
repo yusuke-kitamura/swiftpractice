@@ -37,4 +37,10 @@ print(member.count)
 var s = member.count.description
 print("現在のメンバー数は" + s + "名です。")
 
+//関数
+func test(){
+    print(1 + 2)
+}
+
+test()
 
