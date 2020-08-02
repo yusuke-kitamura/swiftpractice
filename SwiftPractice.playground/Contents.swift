@@ -33,5 +33,8 @@ print(arr1[2])
 //カウント
 var member = ["aさん","bさん","cさん"]
 print(member.count)
+//intとstringを混ぜる場合は、一度stringに変換
+var s = member.count.description
+print("現在のメンバー数は" + s + "名です。")
 
 
