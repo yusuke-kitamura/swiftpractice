@@ -46,6 +46,16 @@ test()
 //タプル:データ型の異なる値を一時的に保存できる
 let t = ("北村", 1209, 1995)
 print(t)
+print(t.0)
 
+//ラベル
+let k = (name:"北村", number:"09011111111")
+print(k)
+print(k.name)
 
+//if文
+var m = 1
+if m < 2{
+    print("mは2未満です。")
+}
 
