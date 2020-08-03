@@ -59,3 +59,19 @@ if m < 2{
     print("mは2未満です。")
 }
 
+//switch文
+let e = 2
+
+switch e{
+    case 1:
+    print("1です")
+    
+    case 2:
+    print("2です")
+    
+    default:
+    print("defaultです")
+}
+
+
+
