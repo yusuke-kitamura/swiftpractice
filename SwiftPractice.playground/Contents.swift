@@ -94,6 +94,14 @@ for i in 0...10{
     print(i)
 }
 
+//continue文 = 対象の数字をスキップ
+for i in 0...10{
+    if i % 3 == 0{
+        continue
+    }
+    print(i)
+}
+
 
 
 
