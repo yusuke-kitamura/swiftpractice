@@ -79,5 +79,12 @@ for i in a{
     print(i)
 }
 
+//while文
+var num = 0
+while num < 4{
+    print(num)
+    num = num + 1
+}
+
 
 
