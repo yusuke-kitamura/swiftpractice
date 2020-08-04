@@ -73,5 +73,11 @@ switch e{
     print("defaultです")
 }
 
+//繰り返し文for-in
+let a = [0,1,2]
+for i in a{
+    print(i)
+}
+
 
 
