@@ -86,5 +86,14 @@ while num < 4{
     num = num + 1
 }
 
+//break文
+for i in 0...10{
+    if i >= 3{
+    break
+}
+    print(i)
+}
+
+
 
 
