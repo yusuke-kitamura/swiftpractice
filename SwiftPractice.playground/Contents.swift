@@ -102,6 +102,19 @@ for i in 0...10{
     print(i)
 }
 
+//クラスとインスタンス
+class Test{
+    let nn = 1
+    var nnn = 2
+    
+    func f(){
+        print(nn)
+        print(nnn)
+    }
+}
+//calss Testを元に生成したインスタンスの中にある関数fを出力
+Test().f()
+
 
 
 
